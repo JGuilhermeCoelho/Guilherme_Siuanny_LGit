@@ -13,15 +13,15 @@ public class Animal {
 	}
 	
 	public String getNome() {
-		return nome;
+		return this.nome;
 	}
 
 	public String getTipo() {
-		return tipo;
+		return this.tipo;
 	}
 
 	public int getIdade() {
-		return idade;
+		return this.idade;
 	}
 
 	@Override
